@@ -6,20 +6,20 @@ A sample application written using Node.js to chaordic parse challenge
 
 Main parts
 -------------------
-* A shell script do generate the input log on servers ( scripts/gerador.sh )
+## A shell script do generate the input log on servers ( scripts/gerador.sh )
 Edit it and change the LOOP_COUNT variable to the amount of lines you want
 
-## Usage:
+* Usage:
 sh chaordicparse/scripts/gerador.sh > entrada.log
 
-* A Node.js script to parse the log on the servers and send it to the main server
+## A Node.js script to parse the log on the servers and send it to the main server
 
-## Usage:
+* Usage:
 nodejs chaordicparse/scripts/parselog.js ~/entrada.log
 
-* A Node.js express app to receive the data from the servers, sort lines by date and write it to the userid files
+## A Node.js express app to receive the data from the servers, sort lines by date and write it to the userid files
 
-## Usage:
+* Usage:
 
 Run npm install / bower install to download the deps. ( * already done on server 1 )
 
