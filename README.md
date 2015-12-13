@@ -27,7 +27,7 @@ Run npm install / bower install to download the deps. ( * already done on server
 
 Output userid files
 -------------------
-The userid files will be stored on the folder chaordic/saida/
+The userid files will be stored on the folder chaordicparse/saida/
 
 
 Main code
