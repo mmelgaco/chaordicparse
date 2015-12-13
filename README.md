@@ -25,6 +25,11 @@ Run npm install / bower install to download the deps. ( * already done on server
 
 `grunt serve` to run the server
 
+Output userid files
+-------------------
+The userid files will be stored on the folder chaordic/saida/
+
+
 Main code
 -------------------
 The main code to process the data, sort lines and write to files is located on:
